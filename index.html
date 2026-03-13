@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="utf-8">
+
+<script src="https://cdn.jsdelivr.net/npm/brython@3.13.2/brython.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/brython@3.13.2/brython_stdlib.js"></script>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body onload="brython()">
+
+<h1>Snake Game</h1>
+
+<h2 id="score">Score: 0 | Speed: 120</h2>
+
+<button id="restart">Restart</button>
+
+<canvas id="game" width="600" height="600"></canvas>
+
+<p>Controls: Arrow Keys | P = Pause</p>
+
+<script type="text/python" src="snake.py"></script>
+
+</body>
+</html>

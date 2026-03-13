@@ -1,0 +1,19 @@
+body{
+background:#111;
+color:white;
+text-align:center;
+font-family:Arial;
+}
+
+canvas{
+background:black;
+border:3px solid white;
+margin-top:20px;
+}
+
+button{
+padding:10px 20px;
+font-size:16px;
+margin:10px;
+cursor:pointer;
+}
